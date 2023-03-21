@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.body {
+  background: #f1dec9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal {
+  padding: 20px;
+  background: #8d7b68;
+  margin-top: 20px;
+}
+
+.black-nav {
+  background: #8d7b68;
+  color: white;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.list {
+  margin: 10px;
+  text-align: left;
+  padding: 10px 20px;
+  background-color: #f1dec9;
+  border: 4px solid #a4907c;
+}
+
+.list > hr {
+  border: solid 2px rgb(162, 162, 197);
+}
+
+.list span {
+  cursor: pointer;
+}
+
+.changePostBtn {
+  border: none;
+}
